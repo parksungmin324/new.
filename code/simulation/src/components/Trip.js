@@ -49,8 +49,8 @@ const DEFAULT_THEME = {
 };
 
 const INITIAL_VIEW_STATE = { 
-  longitude: 127.130622, // 126.98 , -74
-  latitude: 37.451748, // 37.57 , 40.72
+  longitude: 127.135840, // 126.98 , -74
+  latitude: 37.442836, // 37.57 , 40.72
   zoom: 15,
   pitch: 30,
   bearing: 0
@@ -59,13 +59,13 @@ const INITIAL_VIEW_STATE = {
 
 
 const minTime = 0;
-const maxTime = 45;
+const maxTime = 350;
 const animationSpeed = 0.5;
-const mapStyle = "mapbox://styles/spear5306/ckzcz5m8w002814o2coz02sjc";
+const mapStyle = "mapbox://styles/andi3456/clxk1ta9j00a701pof0rz2n1g";
 
 //  자신의 mapbox api key 입력
 // const MAPBOX_TOKEN = `mapbox api key`;
-const MAPBOX_TOKEN = `pk.eyJ1Ijoic2hlcnJ5MTAyNCIsImEiOiJjbG00dmtic3YwbGNoM2Zxb3V5NmhxZDZ6In0.ZBrAsHLwNihh7xqTify5hQ`;
+const MAPBOX_TOKEN = `pk.eyJ1IjoiYW5kaTM0NTYiLCJhIjoiY2x4MWZ2dWg1MGJmbjJrcG9wY210dHI5cSJ9.sVKYG9cIhh7qBB7fRpk9uA`;
 
 const returnAnimationTime = (time) => {
     if (time > maxTime) {
